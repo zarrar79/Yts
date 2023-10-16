@@ -1,0 +1,228 @@
+.col-md-3{
+    height: 95vh;
+}
+.col-md-3 img{
+    cursor: pointer;
+    margin-top: 10vh;
+    border: 5.5px white solid;
+    border-radius: 3px;
+    width: 44vh;
+    height: 63vh;
+}
+.container{
+    width: 100%;
+}
+
+body{
+   width: 100%;
+       background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(19, 18, 18, 0.6)),url(https://img.yts.mx/assets/images/movies/the_burial_2023/background.jpg);
+       background-repeat: no-repeat;
+       background-size: contain;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+    }
+     
+  .buttons{
+    margin-top: 1vh;
+}
+.btn1{
+    cursor: pointer;
+    border-radius: 3px;
+    padding-top: .7vh;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-color: #5DA93C;
+    width: 104%;
+    height: 7.2vh;
+}
+.btn2{
+    border-radius: 3px;
+    padding-top: .7vh;
+    margin-top: .5vh;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-color: #0CAFA0;
+    width: 104%;
+    height: 7.2vh;
+    cursor: pointer;
+}
+.moviename{
+    font-weight: 400;
+   font-size: 45px;
+     margin-left: 10vh;
+    margin-top: 10vh;
+    color: white;
+}
+.year{
+    font-size: 25px;
+}
+.quality{
+    color: white;
+    font-style: italic;
+    font-size: 18px;
+    margin-left: 10vh;
+}
+.btnx{
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #1D1E21;
+    border: .1px white solid;
+    border-radius: 5px;
+    font-weight: 400;
+    color: white;
+    height: 5vh;
+    width: 16vh;
+}
+.btny{
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #1D1E21;
+    border: .1px white solid;
+    border-radius: 5px;
+    font-weight: 400;
+    color: white;
+    height: 5vh;
+    width: 16vh;
+}
+.btnz{
+    
+    font-size: 15px;
+    background-color: #1D1E21;
+    border: .1px white solid;
+    border-radius: 5px;
+    font-weight: 400;
+    color: white;
+    height: 5vh;
+    width: 19vh;
+}
+sub{
+    color: #0DA809;
+}
+.qual{
+    margin-left: 10vh;
+    color: #948D94;
+    font-size: 15px;
+    font-weight: bold;
+}
+.request{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10vh;
+}
+.btnr{
+    border: 1px  #6d6d74 solid;
+    width: 23vh;
+   border-radius: 4px;
+   height: 5.3vh;
+   background-color: #1D1E21;
+   color: white;
+}
+.ratings{
+    margin-top: 2vh;
+    margin-left: 10vh;
+}
+.ratings img{
+    cursor: pointer;
+    background-color: #0DA809;
+   border-radius: 18px;
+    width: 3.5vh;
+    height: 3.5vh;
+}
+.ratings{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.audience{
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-top: 2vh;
+    margin-left: 10vh;
+}
+.audience img{
+    width: 4vh;
+    height: 4vh;
+    border-radius: 5px ;
+}
+.imdb{
+    color: white;
+    margin-top: 2vh;
+    margin-left: 10vh;
+}
+.imdb img{
+    width: 5vh;
+    height: 3vh;
+}
+.imdb sub{
+    color: #575657;
+    font-size: 13px;
+    font-weight: bold;
+}
+.flex{
+    cursor: pointer;
+    height: 30vh;
+}
+.flex img{
+   margin-right: 2vh;
+   width: 18vh;
+   height: 27vh;
+   cursor: pointer;
+}
+.flex2 img{
+    margin-right: 2vh;
+    width: 18vh;
+    height: 27vh;
+    cursor: pointer;
+}
+.header{
+   color: white;
+   font-size: 20px;
+   font-weight: 400;
+}
+.para{
+    color: white;
+    font-size: 16px;
+    font-weight:  100;
+}
+.freeman{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+.data{
+    font-size: 8px;
+    font-size: 200;
+}
+.director{
+    font-size: 25px;
+    font-weight: 400;
+    color: white;
+    margin-left: 16vh;
+    color: white;
+}
+.col-4 img{
+    cursor: pointer;
+    margin-left: 16vh;
+    width: 6vh;
+    height: 6vh;
+}
+.col-4{
+    color: white;
+}
+.dir{
+    width: 60vh;
+}
+.dir hr{
+    margin-left: 17vh;
+    width: 50vh;
+}
+.cast{
+    width: 70vh;
+}
+.cast hr{
+    margin-left: 17vh;
+    width: 50vh;
+}

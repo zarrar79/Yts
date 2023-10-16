@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .image {
+            background: url(img11.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100%;
+            filter: blur(15px);
+
+        }
+
+        .container {
+            display: flex;
+
+        }
+
+        .nav {
+            background-color: rgb(4, 20, 20);
+            flex-wrap: wrap;
+            position: absolute;
+            top: 2px;
+            width: 100%;
+        }
+
+        .nav header {
+            width: 100%;
+
+        }
+
+        .list {
+            float: right;
+            margin-top: 4px;
+        }
+
+        .list li {
+            list-style: none;
+            display: inline-flex;
+            flex-wrap: wrap;
+            flex-flow: wrap;
+            padding: 2px 20px;
+        }
+
+        .list ul {
+            padding-right: 30px;
+            margin: 5px;
+            margin-top: 6px;
+        }
+
+        .list a {
+            color: rgb(207, 207, 207);
+            text-decoration: none;
+        }
+
+        .list a:hover {
+            color: rgb(133, 133, 133);
+            text-decoration: underline;
+        }
+
+        #active a:hover,
+        #active {
+            text-decoration: underline;
+            color: rgb(133, 133, 133);
+
+        }
+
+        .logo {
+            display: inline-flex;
+            margin-left: 5%;
+            margin-top: 2px;
+        }
+
+        .search {
+            display: inline-flex;
+            position: absolute;
+            top: 10px;
+            left: 50%;
+        }
+
+        .search input {
+            text-align: center;
+            padding: 2px;
+            border-radius: 9px;
+            background-color: rgb(119, 119, 119);
+        }
+
+        input::placeholder {
+            color: rgb(189, 189, 189);
+        }
+
+        .top {
+            display: inline-flex;
+            margin: 0px;
+            color: rgb(179, 177, 177);
+            position: absolute;
+            top: 13px;
+            left: 18%;
+        }
+        .content{
+            position: absolute;
+            top: 30px;
+            left: 20%;
+            width: 60%;
+            text-align: center;
+            flex-direction: center;
+
+        }
+        .content h2{
+            color: white;
+            font-weight: bold;
+            font-size: 30px;
+        }
+        .content p{
+            color: rgb(163, 163, 163);
+        }
+        .content a{
+            color: rgb(24, 124, 255);
+            text-decoration: none;
+        }
+        .movies{
+            display: flex;
+            position: absolute;
+            top: 38%;
+            left: 14%;
+            padding: 15px;
+        }
+        .movies a{
+            text-align: center;
+            margin: 0px 25px;
+            text-decoration: none;
+            color: white;
+            
+        }
+        .movies img{
+            border: 4px solid white;
+        }
+        .movies h5{
+            margin-top: 0px;
+            color: yellow;
+        }
+        .movies p{
+            margin-top: -20px;
+            color: grey;
+        }
+        .movies img:hover{
+            border: 4px solid greenyellow;
+            filter: saturate(2);
+            transform: scale(1.1);
+        }
+        #trend{
+            color: rgb(141, 189, 68);
+        }
+        #trend:hover{
+            color: rgb(133, 133, 133);
+        }
+       
+    </style>
+</head>
+
+<body>
+    <div class="image"></div>
+    <div class="container">
+        <div class="nav">
+            <header>
+                <div class="logo">
+                    <img src="logo-YTS.svg" alt="">
+                </div>
+                <p class="top">HD movies at the smallest file size</p>
+                <div class="list">
+                    <ul>
+                        <li><a href="trending.html" id="trend">Trending Movies</a></li>
+                        <li><a href="" id="active">Home</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <input type="search" placeholder="Search here">
+                </div>
+            </header>
+        </div>
+        <div class="content">
+            <h2>
+                Download YTS YIFY movies: HD smallest size
+            </h2>
+            <p>
+                Welcome to the official YTS.MX website. Here you can browse and download YIFY movies in excellent 720p, 1080p, 2160p 4K and 3D quality, all at the smallest file size. YTS Movies Torrents.
+            </p>
+            <span>
+                <a href="">IMPORTANT - YTS.MX is the only new official domain for YIFY Movies</a>
+                <br>
+                <a href="">YTSMX_UPDATES |  Upcoming: THE RETIREMENT PLAN (2023) on 17 October.</a>
+                </span>
+        </div>
+        <div class="movies">
+            <a href="Haunted Mansion.html"><img src="movie1.png" alt="">
+            <h5>Haunted Mansion</h5>
+            <p>2023</p>
+            </a>
+            <a href="Expendables4.html"><img src="movie2.png" alt="">
+            <h5>Expend4bles</h5>
+            <p>2023</p>
+            </a>
+            <a href="The Burial.html"><img src="movie3.png" alt="">
+            <h5>The Burial</h5>
+            <p>2023</p>
+            </a>
+            <a href="It lives inside.html"><img src="movie4.png" alt="">
+            <h5>It Lives Inside</h5>
+            <p>2023</p>
+            </a>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+
+        .image {
+            background: url(img.jpg.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            height: 100%;
+            filter: blur(5px);
+        }
+
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 5;
+            width: 43%;
+            padding: 45px 0;
+            text-align: center;
+            border: 2px solid white;
+            background-color: white;
+        }
+
+        .top {
+            padding: 2px;
+        }
+
+        .top a {
+            background-color: rgb(214, 214, 214);
+            padding: 45px 116.5px;
+            color: grey;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+        }
+
+        .top a:hover {
+            background-color: white;
+            text-decoration: underline;
+        }
+        #active:hover, #active{
+            color: rgb(85, 206, 49);
+            background-color: white;
+            text-decoration: underline;
+        }
+
+        .form {
+            margin-top: 50px;
+        }
+
+        .form input {
+            width: 90%;
+            margin: 10px;
+            padding: 12px;
+            border: 1px solid rgb(184, 184, 184);
+        }
+
+        button {
+            width: 90%;
+            margin: 10px;
+            margin-bottom: 15px;
+            padding: 12px;
+            color: white;
+            font-weight: bolder;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(95, 221, 57);
+            border: 1px solid rgb(46, 161, 11);
+        }
+        button:hover{
+            background-color: rgb(43, 156, 8);
+            color: white;
+            border: 1px solid rgb(46, 161, 11);
+        }
+        .container a{
+            color: rgb(116, 116, 116);
+            text-decoration: none;
+        }
+        .container a:hover{
+            color: rgb(85, 206, 49);
+            text-decoration: underline;
+        }
+        .form p{
+            padding: 10px 40px;
+            font-style: italic;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image"></div>
+    <div class="container">
+        <div class="top">
+            <a href="login.html" id="active">Login</a>
+            <a href="register.html">Register</a>
+        </div>
+        <div class="form">
+            <p>If you have Forgotten your password, just type in your E-mail Address and YTS will send you a link to Reset Your Password.</p>
+            <input type="email" placeholder="Enter your E-mail">
+            <br>
+            <button><a href="login.html"></a>Reset Password</button>
+        </div>
+        <a href="login.html">Back to login</a>
+    </div>
+</body>
+
+</html>
